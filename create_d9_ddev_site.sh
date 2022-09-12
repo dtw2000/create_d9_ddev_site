@@ -1,6 +1,6 @@
 #!/bin/bash
 read -p "Enter Site Name: " sitename
-# be in the right directory
+# be in the right directory to work
 cd ~/sites/ddev
 ##echo $sitename >> out.txt
 mkdir $sitename
