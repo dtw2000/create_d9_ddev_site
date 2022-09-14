@@ -15,3 +15,6 @@ ddev drush site-install --account-pass=admin --yes
 ddev composer require drupal/admin_toolbar
 ddev drush en -y admin_toolbar admin_toolbar_tools
 ddev launch
+
+echo -e "/vendor \n/web/core \n/web/modules/contrib/ \n/web/themes/contrib/ \n/web/profiles/contrib/ \n/web/libraries/ \n \ninstall-key.pem \ninstall.pem" >.gitignore
+cp web/example.gitignore web/.gitignore
